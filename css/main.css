@@ -1,0 +1,181 @@
+/***** BASE STYLES *****/
+
+body {
+    /*color: #2b2b2b;*/
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+
+
+@font-face {
+    font-family: 'wisdom-script';
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px; 
+    min-height: 100px;
+    background-size: auto;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+    margin: 0 auto;
+    }
+
+.third-width {
+    margin: 0 auto;
+    list-style-type: none;
+    width: 398px; 
+    min-height: 180px;    
+}
+
+/*****HEADER*****/
+
+header {
+    color: #77a466;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+
+header h1 {
+    font-size: 30px;
+    padding: 40px 0px 42px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+nav {
+    float: right;
+   }
+
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 37px 5px;
+}
+
+nav ul li a {
+    color: #828282;
+    font-size: 14px;
+    /*padding-left: 80px;*/
+    text-align: right;
+    text-decoration: none;
+}
+
+/**********************INFO*****************/
+.full-width img {
+    border: 3px solid #77a466; 
+    width: 1200px;
+}
+
+main h2 {
+    color: #77a466;
+    font-size: 18px;
+    margin-left: 0px;
+    /*padding: 20px 0;*/
+    text-transform: uppercase;
+    width: 1000px;
+}
+
+header h1 span {
+    color: #2b2b2b;
+    
+}
+
+footer {
+    text-align: center;
+    /*border: 1px solid purple;*/
+}
+
+h3 {
+    /*border: 1px solid green;*/
+    font-size: 12px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+ #menu {
+    float: left;
+  }
+
+#menu ul {
+    line-height: 22px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+  #menu ul li {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #77a466;
+  }
+
+  #reviews {   
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    float: left;
+    height: 225px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 0;
+    width: 342px;
+  }
+
+  #reviews p {
+    line-height: 1.5;
+    margin: 0;
+    width: 342px;
+      }
+
+
+  #locations {
+    list-style-type: none;
+    float: left;
+  }
+
+  #locations ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      }
+
+#locations ul li {
+    padding-left: 28px;
+    }
+
+#locations h3 {
+    margin-left: 28px;
+      }
+
+      
+#info {
+        border-bottom: 1px solid #dedbdc;
+        border-top: 1px solid #dedbdc;
+        overflow: auto;
+               
+      }
+
+      h4 {
+          text-transform: uppercase;
+
+      }
+
+      footer h4 span {
+          color: #77a466;
+          font-family: "wisdom-script";
+          text-transform: lowercase;
+      }
